@@ -9,4 +9,9 @@ function solve(str){
   let specials = 0;
   
  //for loop that adds to countds using conditionals
+  for(let i = 0; i < strArr.length; i++){
+    
+  }
+  
+  //return
 }
