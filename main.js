@@ -1,12 +1,12 @@
 function solve(str){
-//create empty array
+  //create empty array
   let final = [];
 
-//create variables corresponding to the characters we are looking for. 
+  //create variables corresponding to the characters we are looking for. 
   let uppers = /[A-Z]/g;
   let lowers = /[a-z]/g;
   let nums = /[0-9]/g;
-  let specials = /\W/g;
+  let specials = /[^a-zA-Z0-9]/g;
   
   //turn into an array to loop through
   let toMatch = [uppers, lowers, nums, specials]
